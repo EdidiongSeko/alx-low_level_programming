@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copiar el contenido do uno a otra variable
+ * _strcpy - copiar el contenido de uno a otra variable
  * @dest: this is destiny
  * @src: this is the copia
  *
@@ -13,11 +13,12 @@ char *_strcpy(char *dest, char *src)
 
 	while (*src != '\0')
 	{
-		'dest = 'src;
+		*dest = *src;
 		dest++;
 		src++;
 	}
 	*dest = '\0';
 	return (start);
 }
+
 
